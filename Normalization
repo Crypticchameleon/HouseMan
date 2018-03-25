@@ -5,6 +5,8 @@ Normalization
     Denotes the Module designated to manage all digital calendars, upcoming events, work schedules, etc
   #Infrequent
     Denotes task is less frequent, and should be factored into #EventBoi 's calculations
+  #PlayBoi
+    Network media manager/player (partly plex)
   #Trashday
     Denotes the day trash is taken out
   #Undetermined
