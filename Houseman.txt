@@ -1,0 +1,43 @@
+HouseMan
+	#EventBoi - manages all digital calendars, upcoming events, work schedules, etc
+		Function:
+			Aggregates tenant work schedules, vacations, time away
+			Outputs event schedules, making available results
+		Features:
+			Integration with Google calendar, SMS, and Email
+	#ChoreBoi - Manages household duties and assignments
+		Function:
+			Polls availability from #EventBoi for deciding assignments
+			Outputs results (chore assignments) to #EventBoi for visibility
+		Features:
+			Notifications and response systems
+			weighted chore matrix
+				chore name, average durations (min), frequency (days), and importance (#undetermined scale)
+					List of chores include:
+						Mowing lawn
+						Quick clean of Bathrooms
+						#Infrequent Bathroom clean (less frequent)
+						Includes washing/cleaning shower curtain
+						Dusting common areas
+						Includes Fans if applicable
+						Vacuum common areas
+						Mopping Common areas (less frequent)
+						Daily Dishes
+						Cleaning Windows and Mirrors
+						Taking out trash to bins
+						Setting trash out on #Trashday
+						Check lightbulbs and replace, send needed items to #IventoryBoi
+						Clean Oven #Infrequent
+						Clean Fridge #Infrequent
+	#IventoryBoi - Manages household itemization
+		Function:
+			Tracks items from a matrix of items from food to household supplies
+			Allows free-form additions via input from tenants, specifying name of product and number
+		Features:
+		[Insert Rob's Item Module here]
+		Items to include
+			Various Foods
+			Cleaning Supplies (to include laundry and dishes detergents)
+			Office Supplies
+			Household supplies
+			Lightbulbs, Air filters, batteries,

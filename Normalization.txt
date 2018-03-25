@@ -1,0 +1,11 @@
+Normalization
+  #ChoreBoi
+    Manages household duties and assignments
+  #EventBoi
+    Denotes the Module designated to manage all digital calendars, upcoming events, work schedules, etc
+  #Infrequent
+    Denotes task is less frequent, and should be factored into #EventBoi 's calculations
+  #Trashday
+    Denotes the day trash is taken out
+  #Undetermined
+    Denotes factor or variable is as of yet undertermined
