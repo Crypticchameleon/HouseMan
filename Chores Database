@@ -1,22 +1,24 @@
-//This is the database design template (barring a translation depending on the code implemented)
-//Chores Follow a [[Name.Chore],[Duration.Chore],[frequency.Chore]] format (May add further fields in the future to denote short descriptions as well as hyperlinks to the local wiki page)
-// WIP Format [[Name.Chore],[Duration.Chore],[Frequency.Chore],[Description.Chore],[Link.Chore]]
-// An importance value may be added at a later date to document the urgency of some tasks, TBD
+//  This is the database design template (barring a translation depending on the code implemented)
+//  Chores Follow a [[Name.Chore],[Duration.Chore],[frequency.Chore]] format (May add further fields in the future to denote short descriptions as well as hyperlinks to the local wiki page)
+//  WIP Format [[Name.Chore],[Duration.Chore],[Frequency.Chore],[Description.Chore],[Link.Chore]]
+//  An importance value may be added at a later date to document the urgency of some tasks, TBD
 
-// Descriptions for the fields are as follows:
-// [Name.Chore]        = The name of the Chore
-// [Duration.Chore]    = Minutes
-// [Frequency.Chore]   = Days between iterations
-// [Description.Chore] = The description of the chore, encapsulated in quotation marks
-// [Link.Chore]        = The Hyperlink for the chore, leading to it's page on the local hosted wiki page
+//  Descriptions for the fields are as follows:
+//  [Name.Chore]        = The name of the Chore
+//  [Duration.Chore]    = Minutes
+//  [Frequency.Chore]   = Days between iterations
+//  [Description.Chore] = The description of the chore, encapsulated in quotation marks
+//  [Link.Chore]        = The Hyperlink for the chore, leading to it's page on the local hosted wiki page
 
 
-List of chores
+//  List of chores
+
 Chore.MowTheLawn, 30, 14, "Mow the front lawn", [address of internal wiki page]
 Chore.QuickBathClean, 15, 7, "Wipe down the surfaces in the bathroom", [address of internal wiki page]
 Chore.LongBathClean, 60, 28. "Deeply clean the bathroom, toilet, and shower", [address of internal wiki page]
 
-// Please refer to this temporary chore list to construct a basis of the chores and feel free to add more
+
+//  Please refer to this temporary chore list to construct a basis of the chores and feel free to add more
 //	Mowing lawn
 //  Quick clean of Bathrooms
 //  #Infrequent Bathroom clean, in depth
