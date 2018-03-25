@@ -7,14 +7,14 @@
 // [Name.Chore]        = The name of the Chore
 // [Duration.Chore]    = Minutes
 // [Frequency.Chore]   = Days between iterations
-// [Description.Chore] = The description of the chore
+// [Description.Chore] = The description of the chore, encapsulated in quotation marks
 // [Link.Chore]        = The Hyperlink for the chore, leading to it's page on the local hosted wiki page
 
 
 List of chores
-Chore.MowTheLawn,30,14
-Chore.QuickBathClean,15,7
-Chore.LongBathClean,60,28
+Chore.MowTheLawn, 30, 14, "Mow the front lawn", [address of internal wiki page]
+Chore.QuickBathClean, 15, 7, "Wipe down the surfaces in the bathroom", [address of internal wiki page]
+Chore.LongBathClean, 60, 28. "Deeply clean the bathroom, toilet, and shower", [address of internal wiki page]
 
 // Please refer to this temporary chore list to construct a basis of the chores and feel free to add more
 //	Mowing lawn
